@@ -1,0 +1,6 @@
+div .footer {
+  background-color: yellow;
+  display: flex;
+  position: fixed;
+  
+}

@@ -1,0 +1,28 @@
+import React from "react";
+import "./footer.css";
+import { Layout } from "antd";
+
+const { Footer } = Layout;
+
+function PageFooter() {
+  const date = new Date();
+  const year = date.getFullYear();
+  const author = "Developed by Malingas Cumbane - all rights reserverd ";
+
+  return (
+    <Layout style={{ minHeight: "100vh" }}>
+      <Footer
+        style={{
+          textAlign: "center",
+          left: 0,
+          bottom: 0,
+          width: "100%",
+        }}
+      >
+        {author} &copy; - {year}
+      </Footer>
+    </Layout>
+  );
+}
+
+export default PageFooter;
