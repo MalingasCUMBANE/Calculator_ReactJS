@@ -1,6 +1,8 @@
 # Calculator_ReactJS
 Developed using React JS & Antd Design
 
+NOTE: All the files can be found at the master branch.
+
 After making the repository clone: git clone https://github.com/MalingasCUMBANE/Calculator_ReactJS.git
 First install yarn on your machine
 then run the command: yarn install
