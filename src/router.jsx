@@ -4,7 +4,6 @@ import MainPage from "./components/pages/main-content/MainPage";
 
 function Routers() {
   return (
-    // <MainPage />
     <Router>
       <Routes>
         <Route element={<MainPage />} path="/" />

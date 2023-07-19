@@ -7,10 +7,10 @@ const { Footer } = Layout;
 function PageFooter() {
   const date = new Date();
   const year = date.getFullYear();
-  const author = "Developed by Malingas Cumbane - all rights reserverd ";
+  const author = "Developed by Malingas Cumbane - all rights reserved ";
 
   return (
-    <Layout style={{ minHeight: "100vh" }}>
+    <Layout>
       <Footer
         style={{
           textAlign: "center",
